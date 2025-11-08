@@ -2,7 +2,7 @@
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Skills from "./components/Skills";
-// import Contact from "../components/Contact";
+import Contacts from "./components/Contacts";
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
         </section>
         <section id="contact" className="py-16">
           <h2 className="text-4xl mb-8 font-semibold">Contact</h2>
-          {/* <Contact /> */}
+          <Contacts />
         </section>
       </main>
     </div>
