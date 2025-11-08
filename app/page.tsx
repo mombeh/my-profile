@@ -1,7 +1,7 @@
 // import React from "react";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
-// import Skills from "../components/Skills";
+import Skills from "./components/Skills";
 // import Contact from "../components/Contact";
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
         </section>
         <section id="skills" className="py-16 bg-gray-100">
           <h2 className="text-4xl mb-8 font-semibold">Skills</h2>
-          {/* <Skills /> */}
+          <Skills />
         </section>
         <section id="contact" className="py-16">
           <h2 className="text-4xl mb-8 font-semibold">Contact</h2>
