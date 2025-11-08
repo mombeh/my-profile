@@ -17,7 +17,7 @@ export default function Home() {
           <Portfolio />
         </section>
         <section id="skills" className="py-16 bg-gray-100">
-          <h2 className="text-4xl mb-8 font-semibold">Skills</h2>
+          <h2 className="text-4xl mb-8 font-semibold">Stacks</h2>
           <Skills />
         </section>
         <section id="contact" className="py-16">
