@@ -1,3 +1,5 @@
+"use client";
+
 export default function Contact() {
     return (
       <div className="max-w-md mx-auto text-white">
