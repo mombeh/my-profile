@@ -11,7 +11,7 @@ export default function Home() {
       <main className="max-w-6xl mx-auto p-6">
         <section
           id="home"
-          className="min-h-screen flex flex-col md:flex-row items-center justify-center"
+          className="min-h-screen bg-gray-900 text-white p-6 flex flex-col md:flex-row items-center justify-center"
         >
           <div className="md:w-1/3 flex justify-center mb-8 md:mb-0">
             <img
@@ -64,7 +64,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="portfolio" className="py-16">
+        <section id="portfolio" className="min-h-screen text-white py-16">
           <h2 className="text-4xl mb-8 font-semibold text-white">Portfolio</h2>
           <Portfolio />
         </section>
@@ -74,7 +74,7 @@ export default function Home() {
           <Skills />
         </section>
 
-        <section id="contact" className="py-16">
+        <section id="contact" className="py-16 min-h-screen bg-gray-700 text-white p-6">
           <h2 className="text-4xl mb-8 font-semibold text-white">Contact</h2>
           <Contact />
         </section>

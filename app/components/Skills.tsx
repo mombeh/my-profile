@@ -5,11 +5,11 @@ export default function Skills() {
     ];
   
     return (
-      <div className="flex flex-wrap gap-4 justify-center">
+      <div className="flex flex-wrap justify-center gap-4">
         {skills.map((skill, idx) => (
           <span
             key={idx}
-            className="px-4 py-2 bg-blue-600 rounded-md text-white font-mono text-sm cursor-default select-none"
+            className="px-5 py-2 bg-blue-600 rounded-full text-white font-mono font-semibold cursor-default select-none transition-colors hover:bg-blue-700"
           >
             {skill}
           </span>
